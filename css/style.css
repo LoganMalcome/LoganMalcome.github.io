@@ -219,11 +219,11 @@ h1.heading.pink:after {
 }
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
   background-image: url(../assets/arrow-right.png);
-  right: -40px;
+  right: -26px;
 }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
   background-image: url(../assets/arrow-left.png);
-  left: -40px;
+  left: -26px;
 }
 
 
@@ -520,10 +520,10 @@ ul.main-nav.show-it {
     transform: scale(1);
     box-shadow: none;
   }
-  .swiper-button-prev,
+  /* .swiper-button-prev,
   .swiper-button-next {
     display: none;
-  }
+  } */
   .swiper-container {
     padding: 4em 0em;
   }
