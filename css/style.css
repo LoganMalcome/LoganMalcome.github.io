@@ -51,6 +51,17 @@ img {
 	text-shadow: 0 0 19px black, 0 0 25px black;
 }
 
+/* Hero Section */
+header.comichero {
+  background: url(../assets/comics_hero.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
 
 /* Hero Section */
 header.hero {
