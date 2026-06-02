@@ -55,8 +55,17 @@
           <div class="hero-text">
            <div class="main-title">
             <h1>Newsletter sign up</h1>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVV8pdnsrwgX4kkVix-RttouP7xe7qiKVLkCd1DBE555_cUg/viewform?embedded=true" width="640" height="1015" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+        <div class="holds-the-iframe">
+            <div id="loader">
+                <img src="assets/loader.gif" alt="Loading">
             </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVV8pdnsrwgX4kkVix-RttouP7xe7qiKVLkCd1DBE555_cUg/viewform?embedded=true" width="640" height="1015" frameborder="0" marginheight="0" marginwidth="0"
+            onload="document.getElementById('loader').style.display='none';">Loading…</iframe>
+            
+        </div>
+
+        </div>
           </div>
         </div>
       </div>
